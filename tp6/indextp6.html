@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <h1>Formulaire d'inscription</h1>
+</center>
+<form action="">
+    <table>
+        <tr>
+            <td><label for="username" class="blue">Nom d'utilisateur</label></td>
+            <td><input type="text" id="username" name="username"></td>
+        </tr>
+        <tr>
+            <td><label for="password" class="blue">Mot de passe</label></td>
+            <td><input type="password" id="password" name="password"></td>
+        </tr>
+        <tr>
+            <td><label for="confirm_password" class="green">Confirmation du mot de passe</label></td>
+            <td><input type="password" id="confirm_password" name="confirm_password"></td>
+        </tr>
+        <tr>
+            <td><label for="email" class="green">Email</label></td>
+            <td><input type="email" id="email" name="email"></td>
+        </tr>
+        <tr>
+            <td><label for="birth_date" class="green">Date de naissance</label></td>
+            <td><input type="date" id="birth_date" name="birth_date"></td>
+        </tr>
+        <tr>
+            <td><label for="genre" class="green">Genre</label></td>
+            <td>
+                <input type="radio" id="male" name="gender" value="Homme"> Homme
+                <input type="radio" id="female" name="gender" value="Femme"> Femme
+                <input type="radio" id="other" name="gender" value="Autre"> Autre
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="conditions">J'accepte les conditions générales</label></td>
+                <td>  <input type="checkbox" id="terms" name="terms"> </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="S'inscrire"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
