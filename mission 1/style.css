@@ -1,0 +1,51 @@
+body {
+    font-family: serif;
+    padding: 20px;
+  }
+  h1 {
+    font-weight: bold;
+  }
+  form {
+    max-width: 400px;
+  }
+  label {
+    display: inline-block;
+    width: 120px;
+    margin-bottom: 6px;
+    vertical-align: top;
+  }
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="date"],
+  input[type="tel"],
+  input[type="url"],
+  select,
+  textarea,
+  input[type="file"],
+  input[type="color"],
+  input[type="range"] {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-left: 10px;
+    margin-right: 2px;
+    vertical-align: middle;
+  }
+  textarea {
+    height: 60px;
+    resize: none;
+  }
+  .inline-label {
+    width: auto;
+  }
+  .btn {
+    margin-top: 10px;
+  }
+  a {
+    font-size: small;
+    text-decoration: none;
+  }
+  
