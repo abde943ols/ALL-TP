@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>QCM - BTS SIO</title>
+<link rel="stylesheet" href="mission9.css">
+</head>
+<body>
+
+  <header>BTS SIO Lycée Parc de Vilgénis</header>
+
+<h2>Questionnaire sous forme de QCM. Les questions peuvent comporter une ou plusieurs bonnes réponses.</h2>
+
+
+<form id="qcm">
+
+<div class="question-block">
+<b>Question 1 :</b><br>
+Quel joueur est souvent considéré comme l’un des meilleurs buteurs de l’histoire du football ?<br>
+<br>
+<input type="checkbox" name="q1" value="1"> Cristiano Ronaldo<br>
+<input type="checkbox" name="q1" value="0"> Andrés Iniesta<br>
+<input type="checkbox" name="q1" value="0"> Gianluigi Buffon<br>
+<input type="checkbox" name="q1" value="0"> Luka Modrić<br>
+</div>
+<br>
+<div class="question-block">
+<b>Question 2 :</b><br>
+Quel pays a remporté la Coupe du Monde 2018 ?<br>
+<br>
+<input type="checkbox" name="q2" value="1"> La France<br>
+<input type="checkbox" name="q2" value="0"> Le Brésil<br>
+<input type="checkbox" name="q2" value="0"> L’Allemagne<br>
+<input type="checkbox" name="q2" value="0"> L’Argentine<br>
+</div>
+<br>
+<div class="question-block">
+<b>Question 3 :</b><br>
+Quels éléments sont indispensables pour qu’un match de football commence ?<br>
+<br>
+<input type="checkbox" name="q3" value="1"> Un ballon conforme aux règles<br>
+<input type="checkbox" name="q3" value="1"> Deux équipes complètes<br>
+<input type="checkbox" name="q3" value="0"> Une VAR opérationnelle<br>
+<input type="checkbox" name="q3" value="0"> Une météo ensoleillée<br>
+</div>
+<div class="question-block">
+<b>Question 4 :</b><br>
+Quel joueur est surnommé “CR7” ?<br>
+<br>
+<input type="checkbox" name="q4" value="0"> Neymar<br>
+<input type="checkbox" name="q4" value="0"> Kylian Mbappé<br>
+<input type="checkbox" name="q4" value="1"> Cristiano Ronaldo<br>
+<input type="checkbox" name="q4" value="0"> Erling Haaland<br>
+</div>
+<div class="question-block">
+<b>Question 5 :</b><br>
+Quels clubs évoluent en Premier League ?<br>
+<br>
+<input type="checkbox" name="q5" value="0"> Bayern Munich<br>
+<input type="checkbox" name="q5" value="1"> Liverpool<br>
+<input type="checkbox" name="q5" value="1"> Arsenal<br>
+<input type="checkbox" name="q5" value="0"> Real Madrid<br>
+</div>
+<div class="question-block">
+<b>Question 6 :</b><br>
+Quel pays organise la Copa América ?<br>
+<br>
+<input type="checkbox" name="q6" value="0"> États-Unis<br>
+<input type="checkbox" name="q6" value="0"> France<br>
+<input type="checkbox" name="q6" value="1"> Argentine<br>
+<input type="checkbox" name="q6" value="0"> Brésil<br>
+</div>
+<div class="question-block">
+<b>Question 7 :</b><br>
+Quel arbitre dispose de la technologie VAR ?<br>
+<br>
+<input type="checkbox" name="q7" value="0"> L’arbitre assistant vidéo<br>
+<input type="checkbox" name="q7" value="0"> Le quatrième arbitre<br>
+<input type="checkbox" name="q7" value="1"> L’arbitre principal<br>
+<input type="checkbox" name="q7" value="0"> Aucun arbitre<br>
+</div>
+<div class="question-block">
+<b>Question 8 :</b><br>
+Quels joueurs ont joué au FC Barcelone ?<br>
+<br>
+<input type="checkbox" name="q8" value="1"> Ronaldinho<br>
+<input type="checkbox" name="q8" value="0"> Marco Reus<br>
+<input type="checkbox" name="q8" value="1"> Andrés Iniesta<br>
+<input type="checkbox" name="q8" value="0"> Kevin De Bruyne<br>
+</div>
+<div class="question-block">
+<b>Question 9 :</b><br>
+Quelles compétitions sont internationales (sélections nationales) ?<br>
+<br>
+<input type="checkbox" name="q9" value="0"> Ligue des champions<br>
+<input type="checkbox" name="q9" value="1"> Euro<br>
+<input type="checkbox" name="q9" value="1"> Copa América<br>
+<input type="checkbox" name="q9" value="0"> Ligue 1<br>
+</div>
+<div class="question-block">
+<b>Question 10 :</b><br>
+Quel club est surnommé “La Vieille Dame” ?<br>
+<br>
+<input type="checkbox" name="q10" value="0"> Inter Milan<br>
+<input type="checkbox" name="q10" value="1"> Juventus<br>
+<input type="checkbox" name="q10" value="0"> Atlético Madrid<br>
+<input type="checkbox" name="q10" value="0"> AC Milan<br>
+</div>
+
+</form>
+
+<br>
+
+<div class="buttons"><button onclick="testqcm()">Correction</button>
+<button onclick="document.getElementById('qcm').reset()">Effacer</button>
+<button onclick="ouvrirCorrige()">Corrigé</button></div>
+
+
+<script src="mission9.js"></script>
+
+</body>
+</html>
